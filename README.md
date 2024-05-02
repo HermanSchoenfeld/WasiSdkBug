@@ -1,5 +1,6 @@
-This repo demonstrates a bug with dotnet-wasi-sdk showing garbage collection is broken in all circumstances. It's extremely basic.
+# Description
 
+This repo demonstrates a bug with dotnet-wasi-sdk showing garbage collection is broken in all circumstances. It's extremely basic.
 
 **Error**
 ```
@@ -18,8 +19,9 @@ namespace ConsoleApp1
     }
 }
 ```
-
 **Environment**
+```
 .NET 8, .NET 7
 Wasi.Sdk 0.1.4-preview.10020 and 0.1.1
 wasmtime-cli 19.0.2 (040ec9209 2024-04-11)
+```
